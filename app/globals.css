@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --input-background: 38, 38, 38;
+  --purple-button: 147, 51, 234;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+input {
+  background-color: rgb(var(--input-background));
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: rgb(var(--foreground-rgb));
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: rgb(var(--purple-button));
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(126, 34, 206);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
