@@ -12,9 +12,9 @@ export interface RequestBody {
 }
 
 export const CHAINS: Record<number, ChainConfig> = {
-    80002: { // Polygon Ammoy TestNet
-        factoryAddress: "0x67A02b5571aa87eA7486BFCD5b7Ea3845dD76ED1", // Needs to be deployed
-        explorerUrl: " https://www.oklink.com/amoy", 
+    137	: { // Polygon Mainnet
+        factoryAddress: "0x31df79b22250487Cc313dE48c6Eb4094052feABF", 
+        explorerUrl: "https://polygon.blockscout.com/", 
     }
 };
 

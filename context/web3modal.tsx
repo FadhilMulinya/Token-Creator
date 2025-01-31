@@ -8,17 +8,17 @@ const projectId = process.env.NEXT_PUBLIC_PROJECT_ID as string;
 // 2. Set chains using environment variables
 
 export const polygon = {
-  chainId: 80002,
-  name: 'Polygon Amoy',
-  currency: 'MATIC',
-  explorerUrl: 'https://www.oklink.com/amoy',
+  chainId: 137,
+  name: 'Polygon Mainnet',
+  currency: 'POL',
+  explorerUrl: 'https://polygon.blockscout.com/',
   rpcUrl: process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL as string
 }
 
 // 3. Create a metadata object
 const metadata = {
   name: 'EVM Token Factory',
-  description: 'An EVM ERC-20 Token Factory',
+  description: 'A Polygon ERC-20 Token Factory',
   url: 'https://mywebsite.com', // origin must match your domain & subdomain
   icons: ['https://avatars.mywebsite.com/']
 }
