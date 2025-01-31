@@ -83,7 +83,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col px-12">
+    <main className="flex min-h-screen flex-col px-12 bg-gray-800">
       <div className="flex flex-col items-center justify-between text-center p-20">
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-1 lg:text-left">
           <div className="p-8">
@@ -95,7 +95,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     htmlFor="tokenName"
-                    className="block mb-2 text-sm font-bold text-gray-700"
+                    className="block mb-2 text-sm font-bold text-white"
                   >
                     Token Name:
                   </label>
@@ -111,7 +111,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     htmlFor="tokenSymbol"
-                    className="block mb-2 text-sm font-bold text-gray-700"
+                    className="block mb-2 text-sm font-bold text-white"
                   >
                     Token Symbol:
                   </label>
@@ -127,7 +127,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     htmlFor="tokenAmount"
-                    className="block mb-2 text-sm font-bold text-gray-700"
+                    className="block mb-2 text-sm font-bold text-white"
                   >
                     Token Amount:
                   </label>
