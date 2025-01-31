@@ -4,6 +4,9 @@ pragma solidity 0.8.28;
 // Importing OpenZeppelin's ERC20 and Ownable contracts
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-contracts/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+
 
 // Token contract inheriting from ERC20 and Ownable
 contract Token is ERC20, Ownable {
