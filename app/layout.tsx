@@ -21,7 +21,7 @@ export default function RootLayout({
       <html lang="en">
         <head>
           <link rel="icon" href="/favicon.ico" sizes="any" />
-          <title>FanClub - Token Creator</title>
+          <title>FanClub</title>
           <meta
             name="description"
             content="Create your own ERC-20 Token easily on FanClub"
