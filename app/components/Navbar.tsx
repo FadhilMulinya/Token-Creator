@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white p-2 flex flex-row">
+    <nav className="bg-black text-white p-2 flex flex-row">
       <Image
         src="/fan-club-logo.png"
         alt="Fan Club Logo"

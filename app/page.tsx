@@ -83,7 +83,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col px-12 bg-gray-800">
+    <main className="flex min-h-screen flex-col px-12 bg-black">
       <div className="flex flex-col items-center justify-between text-center p-20">
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-1 lg:text-left">
           <div className="p-8">
