@@ -12,7 +12,7 @@ export const polygon = {
   name: 'Polygon Mainnet',
   currency: 'POL',
   explorerUrl: 'https://polygon.blockscout.com/',
-  rpcUrl: process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL as string
+  rpcUrl: process.env.NEXT_PUBLIC_POLYGON_RPC_URL as string
 }
 
 // 3. Create a metadata object
